@@ -49,12 +49,12 @@ int main()
     wrefresh(win);
 
     // Initialise player position
-    float playerX = 14.7f;
-    float playerY = 5.09f;
+    float playerX = 12.0f;
+    float playerY = 5.0f;
     float playerA = 0.0f;        // Angle of player in radians
     float fov = 3.14159f / 3.0f; // Field of view in radians
     float depth = 16.0f;
-    float playerSpeed = 45.0f;
+    float playerSpeed = 45.0f;   // Change the Speed as required
 
     // Initialise the screen buffer
     wchar_t *screen = new wchar_t[screenWidth * screenHeight];
